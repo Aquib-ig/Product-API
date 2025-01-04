@@ -61,7 +61,8 @@ class _HomePageState extends State<HomePage> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => ProductPage(
-                                          productId: productDetails.id!,
+                                          productModel: productDetails,
+                                          // productId: productDetails.id!,
                                         )));
                           },
                         ),
